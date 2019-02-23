@@ -1,7 +1,7 @@
 ### XSS攻击
 **首先了解一下XSS 有哪些注入的方法：**  
 1.在 HTML 中内嵌的文本中，恶意内容以 script 标签形成注入。  
-2.在内联的 JavaScript 中，拼接的数据突破了原本的限制（字符串，变量，方法名等）。 
+2.在内联的 JavaScript 中，拼接的数据突破了原本的限制（字符串，变量，方法名等）。   
 3.在标签属性中，恶意内容包含引号，从而突破属性值的限制，注入其他属性或者标签。  
 4.在标签的 href、src 等属性中，包含 javascript: 等可执行代码。  
 5.在 onload、onerror、onclick 等事件中，注入不受控制代码。  
@@ -69,3 +69,4 @@ DOM 型 XSS 的攻击步骤：
 可使用 XSS 攻击字符串和自动扫描工具寻找潜在的 XSS 漏洞。  
 **g.对Cookie使用http-only，禁止 JavaScript 读取某些敏感 Cookie，攻击者完成 XSS 注入后也无法窃取此 Cookie。**  
 **h.验证码：防止脚本冒充用户提交危险操作。**
+[前端安全系列（一）：如何防止XSS攻击？](https://segmentfault.com/a/1190000016551188#articleHeader16)
