@@ -1,2 +1,2 @@
 # lazyfish-notes
-A personal summary for front-end interviews.
+A personal summary for front-end learning.
